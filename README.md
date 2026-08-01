@@ -6,7 +6,7 @@ The full lab asks for eight protocol concerns. **This piece implements
 three: capability negotiation, defensive tool design, and progress
 tracking.** Notifications, elicitation, resources, prompts, and the
 remote (Streamable HTTP) transport are the rest of the team's pieces
-and aren't built here — don't grade this folder against those.
+and aren't built here
 
 ## The company & problem
 

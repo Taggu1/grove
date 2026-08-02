@@ -16,7 +16,7 @@ clerk eyeballs a record's condition and writes an offer on a paper
 slip. The risk of handing an LLM this workflow directly: a model could
 approve an inflated offer on a whim, or let a junior clerk sign off on
 a buy that should need a manager, and there'd be no server-side check
-stopping it — only whatever the model happened to do that time.
+stopping it only whatever the model happened to do that time.
 
 The server sits in front of a SQLite database and exposes exactly two
 tools, not raw SQL access.

@@ -1,4 +1,3 @@
-"""Build groove_merchant.db from schema.sql and load sample data."""
 import sqlite3
 import os
 

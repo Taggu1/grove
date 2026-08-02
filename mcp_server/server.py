@@ -1,14 +1,3 @@
-"""
-Groove Merchant Records -- buyback MCP server.
-
-Scope note: this piece of the team project implements three protocol
-concerns only -- capability negotiation, defensive tool design, and
-progress tracking. Notifications, elicitation, resources, prompts, and
-the remote transport are owned by the rest of the team and live
-elsewhere in the repo.
-
-Transport: stdio (this piece is still in development).
-"""
 import asyncio
 import os
 import sqlite3

@@ -52,7 +52,7 @@ async def main() -> None:
                 "process_trade_in",
                 {
                     "customer_id": 1,
-                    "staff_id": 1,  # Nadia, clerk -- not authorized above $75
+                    "staff_id": 1, 
                     "store_id": 1,
                     "items": [{"title": "Rare First Pressing", "format": "vinyl", "condition": "mint", "offer_price": 120.00}],
                 },
@@ -64,7 +64,7 @@ async def main() -> None:
                 "process_trade_in",
                 {
                     "customer_id": 1,
-                    "staff_id": 2,  # Omar, buyer
+                    "staff_id": 2,
                     "store_id": 1,
                     "items": [{"title": "Rare First Pressing", "format": "vinyl", "condition": "mint", "offer_price": 120.00}],
                 },
